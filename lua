@@ -191,7 +191,7 @@ end
 end
 
 function m.GetThemeProperty(p,r)
-local u=r[p]or m.Themes.Midninght[p]
+local u=r[p]or m.Themes.Dark[p]
 
 if not u then return nil end
 
@@ -2870,7 +2870,7 @@ end
 return aa end function a.r()
 return function(aa)
 return{
-Midninght={
+Dark={
 Name="Midninght",
 
 Accent=Color3.fromHex"#18181b",
