@@ -11308,7 +11308,7 @@ ac.Themes=a.load'r'(ac)
 ak.Themes=ac.Themes
 
 
-ac:SetTheme"Midnight"
+ac:SetTheme"Dark"
 ac:SetLanguage(ak.Language)
 
 
