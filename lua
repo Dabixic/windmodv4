@@ -2871,7 +2871,7 @@ return aa end function a.r()
 return function(aa)
 return{
 Dark={
-Name="Midninght",
+Name="Dark",
 
 Accent=Color3.fromHex"#18181b",
 Dialog=Color3.fromHex"#161616",
@@ -11334,7 +11334,7 @@ end
 
 local aw=true
 
-local ax=ac.Themes[at.Theme or"Midninght"]
+local ax=ac.Themes[at.Theme or"Dark"]
 
 
 ak.SetTheme(ax)
