@@ -2990,8 +2990,8 @@ Background=Color3.fromHex"#011411",
 Button=Color3.fromHex"#059669",
 Icon=Color3.fromHex"#10b981",
 },
-Dark={
-Name="Dark",
+Midnight={
+Name="Midnight",
 
 Accent=Color3.fromHex"#1e3a8a",
 Dialog=Color3.fromHex"#0c1e42",
@@ -11308,7 +11308,7 @@ ac.Themes=a.load'r'(ac)
 ak.Themes=ac.Themes
 
 
-ac:SetTheme"Midninght"
+ac:SetTheme"Midnight"
 ac:SetLanguage(ak.Language)
 
 
