@@ -191,7 +191,7 @@ end
 end
 
 function m.GetThemeProperty(p,r)
-local u=r[p]or m.Themes.Dark[p]
+local u=r[p]or m.Themes.Midnight[p]
 
 if not u then return nil end
 
@@ -2870,8 +2870,8 @@ end
 return aa end function a.r()
 return function(aa)
 return{
-Dark={
-Name="Dark",
+Midnight={
+Name="Midnight",
 
 Accent=Color3.fromHex"#18181b",
 Dialog=Color3.fromHex"#161616",
@@ -11334,7 +11334,7 @@ end
 
 local aw=true
 
-local ax=ac.Themes[at.Theme or"Dark"]
+local ax=ac.Themes[at.Theme or"Midnight"]
 
 
 ak.SetTheme(ax)
